@@ -121,7 +121,7 @@ const ActionButton = props => {
             borderRadius: props.size / 2,
             width: props.size
           }
-        : { marginHorizontal: props.offsetX, zIndex: props.zIndex };
+        : { marginRight: props.offsetX, zIndex: props.zIndex };
 
     return (
       <View
